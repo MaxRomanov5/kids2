@@ -1,0 +1,19 @@
+
+
+/* gallery */
+
+
+
+.gallery{
+    padding: 63px 0 110px ;
+}
+
+.galleryList{
+    margin-top: 61px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.photoWrap{
+    width: 670px;
+}

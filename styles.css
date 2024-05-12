@@ -8,7 +8,9 @@ ul{
 img{
     display: block;
 }
-
+a{
+    text-decoration: none;
+}
 
 
 .container{
@@ -61,11 +63,11 @@ cursor: pointer;
     height: 0.5px;
     background-color: #333333;
 }
-.navListItem:hover::before{
+.current::before,.navListItem:hover::before{
     display: block;
 }
 
-.navListItem:hover::after{
+.current::after,.navListItem:hover::after{
     display: block;
 }
 .logo{
