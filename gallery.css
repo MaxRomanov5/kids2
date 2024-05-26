@@ -17,3 +17,25 @@
 .photoWrap{
     width: 670px;
 }
+
+.galleryListItem{
+    cursor: pointer;
+}
+.galleryListItem:hover{
+    transform: scale(1.1);
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(245, 239, 239, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 700px;
+    height: auto;
+}
