@@ -1,0 +1,52 @@
+.contactTitle{
+    margin-bottom: 36px;
+}
+
+.addressText,.email{
+font-size: 16px;
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+color: #333333;
+}
+
+.bold{
+    font-weight: 700;
+    font-size: 18px;
+
+}
+.addressText{
+    margin-bottom: 44px;
+}
+.phone{
+    font-family: "Roboto", sans-serif;
+    color: #333333;
+    margin-bottom: 53px;
+}
+.email{
+    margin-bottom: 33px;
+}
+
+.contactButton{
+    display: flex;
+    
+    padding: 23px 40px;
+    align-items: center;
+    background-color: #333333;
+    color: white;
+    border: none;
+    gap: 13px;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 3px ;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.contacts{
+    display: flex;
+    gap: 120px;
+    padding-bottom: 112px;
+}
+.addressWrap{
+    padding-top: 63px;
+}
